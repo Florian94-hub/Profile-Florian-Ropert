@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Florian Ropert | Profile</title>
+    <meta name="description" content="Profil de Florian Ropert — étudiant à l’ICN Business School (La Défense), passionné d'automobile, et de sport, notemment la course a pied / trail, et la musculation.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Florian Ropert — Profile">
+    <meta property="og:description" content="ICN (La Défense) — Automobile • Web.">
+     <meta property="og:image" content="./image/photolinkedin.jpeg">
+    <meta property="og:site_name" content="Florian Ropert">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <header class="hero">
+      <div class="container hero__grid">
+        <div class="hero__left">
+          <img class="avatar img-circle" id="profile-picture"
+     src="./image/photolinkedin.jpeg"
+     alt="Photo de profil de Florian Ropert">
+
+          <div class="hero__intro">
+            <p class="badge"> étudiant à ICN BS & Alternant chez Renault Groupe Maurin </p>
+
+            <h1>Hello, I am <span class="accent">Florian Ropert</span> 👋</h1>
+
+            <p class="subtitle">
+              Étudiant en Bachelor à <strong>ICN Business School (campus La Défense)</strong>.
+              Passionné par le <strong>monde de l'automobile</strong> et l’univers du <strong>sport</strong>,
+              actuellement en apprentissage du <strong> chez Renault Groupe Maurin </strong>.
+            </p>
+
+            <div class="actions">
+              <a class="btn btn--primary" href="mailto: florian.Ropert@icn-artem.com">Me contacter</a>
+              <a class="btn" href="https://concessionnaire.renault.fr/chennevieres.html/" target="_blank" rel="noopener noreferrer">
+                Site que j’aime
+              </a>
+            </div>
+
+            <ul class="highlights" id="profile-highlights">
+              <li><strong>Spécialité :</strong> Course a pied et automobile</li>
+              <li><strong>Compétences :</strong> diagnostic, assemblage, OS, tests stabilité/perf</li>
+              <li><strong>Soft skills :</strong> relation client, conseil, négociation, gestion de projet</li>
+            </ul>
+          </div>
+        </div>
+
+        <aside class="hero__card">
+          <h2>À propos</h2>
+          <p>
+            Je pratique depuis de nombres années du sport, en passant par le tennis, l'athlétisme, le voley-ball. maintenant, je cours et je me spécialise dans le trail, <strong>l'ultra Trail<tr></tr></strong>.
+          </p>
+
+          <div class="chips">
+            <span class="chip chip-highlight" id="featured-skill">Automobile</span>
+            <span class="chip">Ultra Trail</span>
+            <span class="chip">HTML</span>
+            <span class="chip">CSS</span>
+            <span class="chip">Customer care</span>
+          </div>
+        </aside>
+      </div>
+    </header>
+
+    <main class="container">
+
+      <div class="card-white">
+        <section class="section">
+          <h2>Hobbies</h2>
+          <p>
+            J'aime conduire différentes voitures, apprendre a les maitriser et a etre capable de les réparer.
+          </p>
+        </section>
+      </div>
+
+      <div class="card-white">
+        <section class="section">
+          <h2>Passions</h2>
+          <p>
+            La mécanique, l'automobile et le sport automobile
+          </p>
+        </section>
+      </div>
+
+      <div class="card-white">
+        <section class="section">
+          <h2>Projects</h2>
+          <p>
+            Construire une page profil <strong>propre</strong> et <strong>professionnelle</strong>
+            en HTML/CSS, puis l’améliorer progressivement.
+          </p>
+        </section>
+      </div>
+
+      <div class="card-white">
+        <section class="section two-cols">
+          <div>
+            <h2>Expérience & activités</h2>
+            <ul class="list">
+              <li>8ème de finale de coupe de France M18 en volley-ball</li>
+              <li>Relation client, conseil, négociation</li>
+              <li>Stage Commercial chez Renault</li>
+              <li>bénévolat</li>
+            </ul>
+          </div>
+
+          <div>
+            <h2>Contact</h2>
+            <p class="contact">
+              📍 Île-de-France (Paris)<br>
+              ✉️ <a href="mailto:florian.ropert@icn-artem.com">florian.ropert@icn-artem.com</a><br>
+              📞 <a href="tel:+33778565793">+33 7 78 56 57 93</a>
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <div class="card-white">
+        <section class="section">
+          <h2>Social links</h2>
+          <ul class="social list-inline">
+  <li><a href="https://www.instagram.com/flo_rop_/" target="_blank">Instagram</a></li>
+  <li><a href="https://www.linkedin.com/in/florian-ropert-3116b7256/" target="_blank">LinkedIn</a></li>
+</ul>
+        </section>
+      </div>
+
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__grid">
+        <p>© <span id="year"></span> Florian Ropert</p>
+        <p class="footer__right">
+          <a href="mailto:florian.ropert@icn-artem.com">florian.ropert@icn-artem.com</a>
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+  </body>
+</html>
